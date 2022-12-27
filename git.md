@@ -21,6 +21,9 @@
     - $git log -1
     - $git log --online
     - $git log -2 --online
+    
+    
+```$git status```
 - Status로 확인할 수 있는 파일의 상태
     1. Tracked: 이전부터 버전으로 관리되고 있는 파일
         - Unmodified : git status에 나타나지 않음
@@ -28,7 +31,8 @@
         - Staged : Changes to be committe
     2. Untracked : 버전으로 관리된 적 없는 파일 (파일을 새로 만든 경우)
 
-    
+```$git log```
+ - 현재까지 기록한 버전들의 로그를 확인한다
 
 
 

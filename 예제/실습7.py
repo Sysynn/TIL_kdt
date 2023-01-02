@@ -1,0 +1,5 @@
+first = input("첫 번째 숫자를 입력해주세요 > ")
+second = input("두 번째 숫자를 입력해주세요 > ")
+third = input("세 번째 숫자를 입력해주세요 > ")
+total = int(first) + int(second) + int(third)
+print(int(total/3))

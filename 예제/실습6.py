@@ -1,0 +1,7 @@
+first = input("첫 번째 숫자를 입력해주세요 >")
+second = input("두 번째 숫자를 입력해주세요 >")
+print("더하기 연산 :", int(first) + int(second))
+print("빼기 연산 :", int(first) - int(second))
+print("곱하기 연산 :", int(first) * int(second))
+print("몫 연산 :", int(first) // int(second))
+print("나머지 연산 :", int(first) % int(second))

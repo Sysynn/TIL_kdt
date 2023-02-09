@@ -6,19 +6,24 @@
 ```
 &nbsp;
 ## 📝 Summary
-> - [데이터베이스](/Users/synn/Desktop/TIL/Feb/0208/database.md)
-
-> - [Workbench](/Users/synn/Desktop/TIL/Feb/0208/workbench.md)
-
+> - [SQL](/Users/synn/Desktop/TIL/Feb/0209/sql.md)
 
 &nbsp;
+
+## ✔️ Check
+1. Udemy 강좌 딕셔너리 부분 듣기 ❌
+ -> 오늘은 저녁에 수업이 있었다...
+2. 백준 문제 3개 풀기 ❌
+ -> 한개만 풀었다...[덩치](/Users/synn/Desktop/TIL/Feb/0209/02.py)
+3. 수업 내용 다시 정리하기 ⭕️
 ## 🗓 Tomorrow
-1. Udemy 강좌 딕셔너리 부분 듣기
+1. Udemy 강좌 딕셔너리 부분 듣기 (다시!)
 2. 백준 문제 3개 풀기
-3. 수업 내용 다시 정리하기
+3. lambda, list comprehension 개념 다시 정리하기
+
 
 ## 💭 Thought
 ```
-끙끙 앓다가 못풀었던 모의고사 파리퇴치를 다시 풀었다. 
-이중 for문으로 arrange도 지정해야된다는걸 몰랐다.
-아직도 이차원 문제는 코드를 봐도 이해가 잘 안간다.
+오늘도 끙끙 앓다가 못풀었던 덩치 문제를 풀었다.
+시간이 너무 오래 걸렸지만, 역시 샤워를 하니까 뭔가 방법이 떠오른다.
+역시 문제 풀다 막혔을때는 샤워를...

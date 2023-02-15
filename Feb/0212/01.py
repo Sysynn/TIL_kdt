@@ -1,3 +1,4 @@
+# 4673 셀프 넘버
 def d(num):
     tot = 0
     for i in str(num):

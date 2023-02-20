@@ -11,6 +11,7 @@
 > - [0214 SQL Managing Tables](/Users/synn/Desktop/TIL/Feb/0214/SQL_Managing_Tables.md)
 > - [0215 SQL Multi Tables Query](/Users/synn/Desktop/TIL/Feb/0215/SQL_Multi_Table_Query.md)
 > - [0216 SQL Subquery](/Users/synn/Desktop/TIL/Feb/0216/SQL_Subquery.md)
+> - [0220 SQL Transaction](/Users/synn/Desktop/TIL/Feb/0220/sql_advanced.md)
 &nbsp;
 
 ## ✔️ Check

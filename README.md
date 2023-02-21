@@ -12,12 +12,15 @@
 > - [0215 SQL Multi Tables Query](/Users/synn/Desktop/TIL/Feb/0215/SQL_Multi_Table_Query.md)
 > - [0216 SQL Subquery](/Users/synn/Desktop/TIL/Feb/0216/SQL_Subquery.md)
 > - [0220 SQL Transaction](/Users/synn/Desktop/TIL/Feb/0220/sql_advanced.md)
+> - [0221 SQL ERD](/Users/synn/Desktop/TIL/Feb/0221/sql_advanced.md)
+
 &nbsp;
 
 ## ✔️ Check ⭕️❌
-1. 백준 문제 1개 풀기 ❌ 
+1.  백준 문제 1개 풀기 ⭕️ 
 2. Udemy 강좌 1개 듣기 ❌
-3. 모의고사 문제 다시 풀어보기 ❌
+3. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ❌
+4. JS 강좌 1개 듣기 ❌
 
 
 ## 🗓 Tomorrow
@@ -28,6 +31,6 @@
 
 ## 💭 Diary
 ```
-문제가 쉽다고 생각했는데 계속 시간 초과가 뜬다...
-아예 처음부터 다시 생각해야 하는데 예전 코드가 머릿속에서 지워지지 않는다
+평일 밤 수업이 많아지면서 투자하는 시간이 줄어들었다면 핑계일까...
+잠도 부족한 것 같다. 지장을 주지 않을 정도만이라도 잠을 줄이면서라도 조금 더 시간을 할애해야겠다.
 ```

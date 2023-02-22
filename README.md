@@ -13,11 +13,12 @@
 > - [0216 SQL Subquery](/Users/synn/Desktop/TIL/Feb/0216/SQL_Subquery.md)
 > - [0220 SQL Transaction](/Users/synn/Desktop/TIL/Feb/0220/sql_advanced.md)
 > - [0221 SQL ERD](/Users/synn/Desktop/TIL/Feb/0221/sql_advanced.md)
+> - [0222 WEB 01](/Users/synn/Desktop/TIL/Feb/0222/web01.md)
 
 &nbsp;
 
 ## ✔️ Check ⭕️❌
-1.  백준 문제 1개 풀기 ⭕️ 
+1.  백준 문제 1개 풀기 ❌
 2. Udemy 강좌 1개 듣기 ❌
 3. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ❌
 4. JS 강좌 1개 듣기 ❌
@@ -25,12 +26,12 @@
 
 ## 🗓 Tomorrow
 1. 백준 문제 1개 풀기 
-2. Udemy 강좌 1개 듣기
-3. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개)
-4. JS 강좌 1개 듣기
+2. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개)
+
 
 ## 💭 Diary
 ```
-평일 밤 수업이 많아지면서 투자하는 시간이 줄어들었다면 핑계일까...
-잠도 부족한 것 같다. 지장을 주지 않을 정도만이라도 잠을 줄이면서라도 조금 더 시간을 할애해야겠다.
+스스로 약속한 것을 하나도 지키지 못했다
+오늘은 수업이 있다는 핑계로... 근데 내일도 수업이 많다...
+현실적인 목표를 세우기로 한다.
 ```

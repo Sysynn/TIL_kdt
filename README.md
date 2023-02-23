@@ -14,14 +14,13 @@
 > - [0220 SQL Transaction](/Users/synn/Desktop/TIL/Feb/0220/sql_advanced.md)
 > - [0221 SQL ERD](/Users/synn/Desktop/TIL/Feb/0221/sql_advanced.md)
 > - [0222 WEB 01](/Users/synn/Desktop/TIL/Feb/0222/web01.md)
+> - [0223 WEB 02](/Users/synn/Desktop/TIL/Feb/0223/web02.md)
 
 &nbsp;
 
 ## ✔️ Check ⭕️❌
-1.  백준 문제 1개 풀기 ❌
-2. Udemy 강좌 1개 듣기 ❌
-3. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ❌
-4. JS 강좌 1개 듣기 ❌
+1. 백준 문제 1개 풀기 ❌ 
+2. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ⭕️
 
 
 ## 🗓 Tomorrow
@@ -31,7 +30,6 @@
 
 ## 💭 Diary
 ```
-스스로 약속한 것을 하나도 지키지 못했다
-오늘은 수업이 있다는 핑계로... 근데 내일도 수업이 많다...
-현실적인 목표를 세우기로 한다.
+내일은 진짜 공부할 시간이 없을 것 같은데
+오늘도 고해성사를 해야 할 것 같다...
 ```

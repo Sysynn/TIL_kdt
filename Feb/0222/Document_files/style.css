@@ -1,0 +1,25 @@
+.main-box {
+    width: 700px;
+    height: 500px;
+    background-color: powderblue;
+}
+.gray {
+    color:gray;
+}
+.porfile-img {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #2B3856;
+    transform: scale(1); /* 이미지 사이즈 고정 */
+    border-radius: 70%
+    } 
+.img { display : block;
+
+    margin : auto;}
+
+.my_div {
+    background-color: oldlace;
+    border : 2px solid oldlace;
+    height : 200px;
+    text-align : center;
+}

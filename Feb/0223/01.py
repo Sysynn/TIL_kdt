@@ -46,27 +46,27 @@ for t in range(T):
 
 
 
-# import io, os, sys
-# from itertools import accumulate
+import io, os, sys
+from itertools import accumulate
 
 
-# def main():
-#     input = io.BytesIO(os.read(0, os.fstat(0).st_size)).readline
+def main():
+    input = io.BytesIO(os.read(0, os.fstat(0).st_size)).readline
 
-#     n, m = map(int, input().split())
-#     a = [[0] * (m + 1)]
-#     for i in range(1, n + 1):
-#         r = accumulate(map(int, input().split()), initial=0)
-#         r = [p + r for p, r in zip(a[-1], r)]
-#         a.append(r)
-#     ans = []
-#     for _ in range(int(input())):
-#         i, j, x, y = map(int, input().split())
-#         t, b = min(i, x) - 1, max(i, x)
-#         l, r = min(j, y) - 1, max(j, y)
-#         ans.append(a[t][l] - a[t][r] - a[b][l] + a[b][r])
-#     print("\n".join(map(str, ans)))
+    n, m = map(int, input().split())
+    a = [[0] * (m + 1)]
+    for i in range(1, n + 1):
+        r = accumulate(map(int, input().split()), initial=0)
+        r = [p + r for p, r in zip(a[-1], r)]
+        a.append(r)
+    ans = []
+    for _ in range(int(input())):
+        i, j, x, y = map(int, input().split())    
+        t, b = min(i, x) - 1, max(i, x)
+        l, r = min(j, y) - 1, max(j, y)
+        ans.append(a[t][l] - a[t][r] - a[b][l] + a[b][r])
+    print("\n".join(map(str, ans)))
 
 
-# if __name__ == "__main__":
-#     sys.exit(main())
+if __name__ == "__main__":
+    sys.exit(main())

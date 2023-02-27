@@ -15,21 +15,21 @@
 > - [0221 SQL ERD](/Users/synn/Desktop/TIL/Feb/0221/sql_advanced.md)
 > - [0222 WEB 01](/Users/synn/Desktop/TIL/Feb/0222/web01.md)
 > - [0223 WEB 02](/Users/synn/Desktop/TIL/Feb/0223/web02.md)
-
+> - [0227 WEB 03 CSS Layout](/Users/synn/Desktop/TIL/Feb/0227/WEB03_CSS_Layout.md)
 &nbsp;
 
 ## ✔️ Check ⭕️❌
 1. 백준 문제 1개 풀기 ❌ 
-2. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ⭕️
+2. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ❌ 
 
 
 ## 🗓 Tomorrow
 1. 백준 문제 1개 풀기 
-2. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개)
+2. Udemy 강의 1개 듣기
 
 
 ## 💭 Diary
 ```
-내일은 진짜 공부할 시간이 없을 것 같은데
-오늘도 고해성사를 해야 할 것 같다...
+저번주 주말부터 방향을 잃은것같다
+뭘 해야될 지 모르겠다
 ```

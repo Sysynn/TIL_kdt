@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        width: auto;
+        height: auto;
+        position : relative;
+        display: inline-block;
+    }
+    .ribbon {
+        position : absolute;
+        width : 50px;
+        height : 50px;
+        top: 0;
+        left: 20px;
+        z-index: 2;
+    }
+
+    .ad {
+        position : absolute;
+        width : 100px;
+        height : 100px;
+        top : 0;
+        right : 0;
+        z-index: 3;
+    }
+</style>
+<body>
+    <div class = "container">
+        <img src = "01.png">
+        <img class = "ribbon" src = "02.png">
+        <img class = "ad" src = "03.png">
+      </div>
+</body>
+</html>

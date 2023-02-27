@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+.name {
+    font-family: 'GmarketSansMedium';
+}
+.desc {
+    font-family: 'GmarketSansMedium';
+    color:rgb(241, 221, 185)
+}
+.mainbox {
+    width: 600px;
+    height: 700px;
+    border: 3px solid orange;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: coral;
+    box-shadow : 5px 5px gray;
+    position: relative;
+}
+
+.box_01 > div {
+    font-family: KOTRAHOPE;
+    background-color: rgb(218, 74, 22);
+    color: rgb(248, 203, 170);
+    display: inline-block;
+    border: 1px solid rgb(231, 91, 3);
+    border-radius: 20%;
+    padding: 15px;
+    margin: 10px;
+}
+
+.box_02 > div {
+    display: inline-block;
+    font-size: 50px;
+    padding-top : 40px;
+    margin-right: 20px;
+}
+.line {
+    color: whitesmoke;
+}
+.img > img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    box-shadow : 5px 5px;
+    
+}
+
+.profile > p{
+    font-family: 'GmarketSansMedium';
+}
+

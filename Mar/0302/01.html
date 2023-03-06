@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .mainbox {
+            border: 1px solid black;
+            height: 360px;
+            display: flex;
+            position: relative;
+        }
+        .relative {
+            position: relative;
+        }
+        .mainbox > img {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
+        }
+        .mainbox > aside {
+            display: flex;
+            flex-direction: column;
+        }
+        .row {
+            padding-top: 20px;
+            display:flex;
+            flex-direction: row;
+        }
+        .right {
+            padding: 20px;
+        }
+        .name {
+            font-weight: bold;
+            font-size: large;
+        }
+        .row section:nth-of-type(2) {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+    
+        .row section div:nth-of-type(1),
+        .row section div:nth-of-type(2) {
+            flex-basis: 50%;
+        }
+    </style>
+    </style>
+</head>
+<body>
+    <main class="mainbox relative">
+        <article>
+            <img src="/Users/synn/Desktop/TIL/Mar/0302/01_HTML_CSS_Basics_01_01 .jpg">
+        </article>
+        <aside class="right">
+            <div>
+                <header class = "name">팀 버너스리</header>
+                <div>프로그래머</div>
+                <article>1989년 월드 와이드 웹의 하이퍼 텍스트 시스템을 고안하여 개발. 웹의 아버지</article>
+            </div>
+            <div class="row">
+                <section>
+                    <div>국적</div>
+                    <div>생년월일</div>
+                    <div>직업</div>
+                    <div>출신 대학</div>
+                    <div>추가 정보</div>
+                </section>
+                <section>
+                    <div>영국</div>
+                    <div>1955년 6월 8일</div>
+                    <div>전산과학자, 프로그래머, 교수</div>
+                    <div>옥스퍼드 대학교 물리학 학사</div>
+                    <div><a href="https://ko.wikipedia.org/wiki/팀_버너스리">https://ko.wikipedia.org/wiki/팀_버너스리</a></div>
+                </section>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>

@@ -16,20 +16,22 @@
 > - [0222 WEB 01](/Users/synn/Desktop/TIL/Feb/0222/web01.md)
 > - [0223 WEB 02](/Users/synn/Desktop/TIL/Feb/0223/web02.md)
 > - [0227 WEB 03 CSS Layout](/Users/synn/Desktop/TIL/Feb/0227/WEB03_CSS_Layout.md)
+> - [0302 WEB 06 Semantic Web](/Users/synn/Desktop/TIL/Mar/0302/WEB06.md)
+> - [0306 WEB 07 Bootstrap](/Users/synn/Desktop/TIL/Mar/0307/Bootstrap.md)
 &nbsp;
 
 ## ✔️ Check ⭕️❌
 1. 백준 문제 1개 풀기 ❌ 
-2. SQL 문제 다시 풀어보기 (1,2 레벨 2개, 3,4레벨 2개) ❌ 
+2. Udemy 강의 1개 듣기 ⭕️
 
 
 ## 🗓 Tomorrow
 1. 백준 문제 1개 풀기 
 2. Udemy 강의 1개 듣기
+3. 과제 못다한거 마무리하기
 
 
 ## 💭 Diary
 ```
-저번주 주말부터 방향을 잃은것같다
-뭘 해야될 지 모르겠다
+알고리즘을 붙잡고 있어야 하는데 자꾸 놓게 된다₩]
 ```

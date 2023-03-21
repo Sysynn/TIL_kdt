@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+    }
+
+		nav {
+      width: 100%;
+      position: fixed;
+      height: 50px;
+      background-color: #ffc300;
+    }
+    
+    #check-btn {
+      display: none;
+    }
+
+    #check-btn:checked~.sidebar {
+      /* display: block; */
+      transform: translateX(0);
+      /* 처음 있던 위치로 이동 */
+    }
+
+    .burger {
+      position: absolute;
+      margin: 15px;
+    }
+
+		.sidebar {
+      /* display: none; display:none 기본으로 설정해놓으면 적용이 안됨*/
+      transform: translateX(-250px);
+      /* X축으로 -250px만큼 이동해서 화면 밖에 숨어있음 */
+      transition: transform 0.5s ease-in-out;
+			width: 200px;
+			height: 100%;
+			background-color: lightyellow;
+			position: absolute;
+			top: 50px;
+			left: 0;
+			overflow: hidden;
+			transition: all 0.3s;
+			/* display: inline-block; */
+		}
+
+		.sidebar ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.sidebar li {
+			padding: 10px;
+			cursor: pointer;
+			border-bottom: 1px solid #ccc;
+    }
+
+		.sidebar li:hover {
+			background-color: #f4f5a9;
+			transition-duration: 0.5s;
+		}
+
+		.sidebar .active {
+			background-color: #f4f5a9;
+		}
+	input[id*="submenu"] {    
+		display: none /* 체크박스 가려주기 */
+	}
+	/* input[id*="submenu"] input 메뉴 중에 "submenu"라는 글자를 포함하고 있는 id를 가진 요소를 선택 */
+
+	input[id*="submenu"] + label {
+		display:block;
+		padding:20px;
+		border:1px solid #ffc300;
+		border-bottom:0;   
+		color:#fff;
+		text-shadow: 1px 1px 2px grey;
+		font-weight:900;
+		background:#ffd60a;
+		cursor:pointer;
+		position:relative; /* em에 들어갈 아래로 화살표의 기준을 잡아주기 위해서 */
+	}
+	input[id*="submenu"] + label em { /* 꺽쇠 스타일 */
+		position:absolute;
+		top:40%;
+		right:10px;
+		width:30px;
+		height:30px;
+		margin-top:-10px;
+		display:inline-block;
+		background:url('chevron_right.png') 0 0 no-repeat;
+		background-size: cover;
+	}
+	input[id*="submenu"] + label + div {   /* 콘텐츠 영역 */
+		max-height: 0;						/* 기본 숨김 */
+		transition: .5s;
+		overflow: hidden;					/* 삐져나오는 부분 숨기기 */
+		background: #edede9;
+		text-align: center;
+	}
+	
+	
+	input[id*="submenu"]:checked + label + div {   /* 클릭시 등장 */
+		max-height: 300px;
+	}
+
+	input[id*="submenu"]:checked + label em {
+		transform: rotate(90deg);  /* 클릭 됐을때 꺽쇠가 아래로 90도 회전 */
+	}
+
+	input[id*="submenu"]:checked + label + div p{
+		margin: 20px;
+	}
+	
+/*	
+    .sidebar li:hover .submenu {
+      transition-duration: 1s;
+    }
+
+		.sidebar .sub-menu {
+			display: none;
+			padding-left: 20px;
+
+		}
+
+		.sidebar .sub-menu li {
+			padding: 5px;
+			border-bottom: none;
+		}
+
+		.sidebar.active {
+			width: 50px;
+		}
+	*/
+		a {
+			text-decoration: none;
+			color: grey;
+		}
+/*
+		.sidebar.active ul li .sub-menu {
+			display: none;
+		}
+
+    .sidebar .sub-menu.show {
+			display: block;
+		}
+
+*/
+	</style>
+</head>
+<body>
+	<header>
+		<nav></nav>
+		<input id="check-btn" type="checkbox"/>
+		<label for="check-btn" class="burger">
+			<span>
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+				</svg>
+			</span>
+		</label>
+		<div class="sidebar">
+			<input type="radio" name="accordian" id="submenu01">
+			<label for = "submenu01">멤버 소개 <em></em></label>
+			<div>				
+				<p>초원</p>
+				<p>신혜</p>
+				<p>충현</p>
+				<p>상윤</p>
+				<p>윤원</p>
+				<p>주현</p>
+				<p>지수</p>
+			</div>
+			<input type="radio" name="accordian" id="submenu02">
+			<label for = "submenu02">활동 소개 <em></em></label>
+			<div>				
+				<p>Project 01</p>
+				<p>Project 02</p>
+				<p>Project 03</p>
+				<p>Project 04</p>
+				<p>Project 05</p>
+				<p>Project 06</p>
+				<p>Project 07</p>
+			</div>
+			<input type="radio" name="accordian" id="submenu03">
+			<label for = "submenu03">놀이터 <em></em></label>
+			<div>				
+				<p>1</p>
+				<p>2</p>
+				<p>3</p>
+				<p>4</p>
+				<p>5</p>
+				<p>6</p>
+				<p>7</p>
+				
+			</div>
+		</div>
+	</header>
+
+	<!-- <script>
+		function toggleSubMenu(menu) {
+			// 현재 메뉴의 하위 메뉴를 토글
+			menu.querySelector(".sub-menu").classList.toggle("show");
+
+			// 다른 메뉴의 하위 메뉴를 숨김
+			var otherMenus = document.querySelectorAll(".sidebar .sub-menu.show");
+			for (var i = 0; i < otherMenus.length; i++) {
+				if (otherMenus[i] !== menu.querySelector(".sub-menu")) {
+					otherMenus[i].classList.remove("show");
+				}
+			}
+		}
+	</script> -->
+</body>
+</html>

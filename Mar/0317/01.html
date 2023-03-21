@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+    }
+
+    .container {
+        margin: 0;
+        height: 100vh;
+    }
+
+    .navbar {
+        width: 100vw;
+        height: 30px;
+        background-color: #c6c6c6;
+        position: fixed;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .nav-left {
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-right {
+        margin: 0;
+        padding: 0;
+    }
+    
+    #check-btn {
+        display: none;
+    }
+
+    #check-btn:checked~.menubars {
+        transform: translateX(0);  /* 초기 위치로 이동 */
+    }
+
+    .menubars {
+        transform: translateX(-250px);  /* 초기 위치 밖으로 이동 */
+        transition: transform 0.3s ease-in-out;  /* transform 속성에 대해 0.3초 동안 ease-in-out 타이밍 함수를 적용한 트랜지션 효과 적용 */
+        background-color: #cccccc;
+        width: 200px;
+        height: 100vh;
+        padding-top: 23px;
+        margin: 0;
+    }
+
+    
+    
+</style>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="nav-left">
+                <input id="check-btn" type="checkbox" />
+                <label for="check-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list" viewBox="0 0 14 14">
+                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                    </svg>
+                    
+                </label>
+                    <ul class="menubars">
+                        <li>메뉴</li>
+                        <li>메뉴</li>
+                        <li>메뉴</li>
+                        <li>메뉴</li>
+                    </ul>  
+            </div>
+        
+            <div class="nav-right">
+        
+            </div>
+        </nav>
+    </div>
+</body>
+
+</html>

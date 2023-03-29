@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<style>
+    .contents {
+        padding: 30px;
+    }
+    span {
+        color: red;
+        font-size: 30px;
+    }
+</style>
+{% endblock style %}
+{% block content %}
+<div class="contents">    
+    
+    <h3>I'm going to <span>{{ city }}</span></h3>
+    {% comment %} <form action="/catch/" method="GET">
+        <input type="text" name="message">
+        <input type="submit" class="btn btn-outline-primary" value="Throw">
+    </form> {% endcomment %}
+</div>
+{% endblock content %}

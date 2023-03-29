@@ -28,8 +28,11 @@
 - pip freeze > requirements.txt
 5. git 저장소 생성
 6. .gitignore 파일 생성
-7. django 프로젝트 생성
-- django-admin startproject firstpjt
+7. django 앱 생성
+- django-admin startproject 'firstpjt' . (맨 뒤에 .을 안붙이면 동일명의 폴더가 하위에 생성됨)
+8. app 생성
+- python3 manage.py startapp 'app_name'
+- settings에 app 이름 추가
 <!-- 서버 끄는건 컨트롤 c
 cmd+shift+P -> vscode에서 실행검색  -->
 
